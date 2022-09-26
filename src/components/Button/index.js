@@ -1,12 +1,8 @@
-import React from 'react';
-import { ButtonContainter } from './styles';
+import React from "react";
+import { ButtonContainer } from "./styles";
 
-function Button(onClick) {
-  return (
-    <ButtonContainter onClick={onClick}>
-        Buscar
-    </ButtonContainter>
-  )
+function Button({ onClick }) {
+  return <ButtonContainer onClick={onClick}>Buscar</ButtonContainer>;
 }
 
-export default Button
+export default Button;

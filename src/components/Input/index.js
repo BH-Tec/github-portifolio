@@ -1,12 +1,12 @@
-import React from 'react';
-import { InputContainter } from './styles';
+import React from "react";
+import { InputContainer } from "./styles";
 
-function Input({value, onChange}) {
+function Input({ value, onChange }) {
   return (
-    <InputContainter>
-        <input value={value} onChange={onChange}/>
-    </InputContainter>
-  )
+    <InputContainer>
+      <input value={value} onChange={onChange} />
+    </InputContainer>
+  );
 }
 
-export default Input
+export default Input;
